@@ -34,7 +34,7 @@ function newRank(balance){
 }
 
 function main(){
-    const hero = {victory: 115, loses: 20};
+    const hero = {victory: 105, loses: 20};
 
     let heroBalance = balance(hero.victory, hero.loses)
     let currentRank = newRank(heroBalance)
